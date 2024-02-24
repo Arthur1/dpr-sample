@@ -1,5 +1,5 @@
 region: ap-northeast-1
-packages-store:
+package-store:
   s3-bucket-name: arthur-1-dpr-test
-tags-db:
+tag-db:
   dynamodb-table-name: arthur-1-dpr-test

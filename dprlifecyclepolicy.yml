@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Arthur1/dpr/main/dprlifecyclepolicy.schema.json
+
+rules:
+  - description: hoge
+    selection:
+      tag-status: untagged
+      count-type: package-count-more-than
+      count-value: 0
+    action:
+      type: expire
