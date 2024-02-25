@@ -8,7 +8,7 @@
 - jq
   - `brew install jq`
 - dprc
-  - `brew install dprc`
+  - `brew install Arthur1/tap/dprc`
 
 ## Create dpr & Lambda
 
